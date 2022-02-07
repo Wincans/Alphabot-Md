@@ -2,18 +2,18 @@ exports.private = () =>{
 	return`Fitur hanya bisa di gunakan di private chat`
 	}
 exports.wait = () => {
-    return `⏳ Mohon tunggu sebentar~`
+    return `Mohon tunggu sebentar...`
 }
 
 exports.ok = () => {
-    return `✅ Done. Ok desu~`
+    return `Done...`
 }
 
 exports.err = () => {
-    return `⚠️ Fitur Sedang Error`
+    return `Fitur sedang error`
 }
 exports.erorLink = () => {
-    return `⚠️ Link nya error`
+    return `Linknya error`
 }
 exports.media = () => {
     return `Silahkan pilih media yang ingin kamu download`
@@ -23,31 +23,31 @@ exports.replyImg = (prefix, command) => {
 }
 
 exports.wrongFormat = (prefix) => {
-    return `Format salah ❎ Silakan cek cara penggunaan di *${prefix}allmenu*.`
+    return `Format salah silahkan cek cara penggunaan di *${prefix}allmenu*.`
 }
 
 exports.emptyMess = () => {
-    return `❎ Harap masukkan pesan yang ingin disampaikan!`
+    return `Harap masukkan pesan yang ingin disampaikan!`
 }
 
 exports.cmdNotFound = (cmd, prefix) => {
-    return `❎ Command *${cmd}* tidak terdaftar di *${prefix}allmenu*`
+    return `Command *${cmd}* tidak terdaftar di *${prefix}allmenu*`
 }
 
 exports.ownerOnly = () => {
-    return `❎ Command ini khusus Owner`
+    return `Command ini khusus Owner`
 }
 
 exports.doneOwner = () => {
-    return `✅  ️Sudah selesai, Owner ~`
+    return `Sudah selesai, Owner ~`
 }
 
 exports.groupOnly = () => {
-    return `👥  Command ini hanya bisa digunakan di dalam grup!`
+    return `Command ini hanya bisa digunakan di dalam grup!`
 }
 
 exports.adminOnly = () => {
-    return `🙅  Command ini hanya bisa digunakan oleh admin grup!`
+    return `Command ini hanya bisa digunakan oleh admin grup!`
 }
 
 exports.nhFalse = () => {
@@ -61,15 +61,15 @@ Total diblokir: *${blockNumber.length}* user\n`
 }
 
 exports.notAdmin = () => {
-    return `❎ User bukan seorang admin! ❎`
+    return `User bukan seorang admin!`
 }
 
 exports.adminAlready = () => {
-    return `❎ Tidak  dapat mem-promote user yang merupakan admin!`
+    return `Tidak  dapat mem-promote user yang merupakan admin!`
 }
 
 exports.botNotAdmin = () => {
-    return `Jadikan bot sebagai admin terlebih dahulu! 🙏`
+    return `Jadikan bot sebagai admin terlebih dahulu!`
 }
 
 exports.received = (pushname) => {
@@ -608,13 +608,13 @@ exports.rules = (prefix) => {
     return `
 *── 「 RULES AND FAQ 」 ──*
 
-1. Jangan spam bot. 🙅
-Sanksi: *❎ WARN/SOFT BLOCK*
+1. Jangan spam bot.
+Sanksi: *WARN/SOFT BLOCK*
 
-2. Jangan telepon bot. ☎️
-Sanksi: *❎ SOFT BLOCK*
+2. Jangan telepon bot.
+Sanksi: *SOFT BLOCK*
 
-3. Jangan mengeksploitasi bot.😖
+3. Jangan mengeksploitasi bot.
 Sanksi: *PERMANENT BLOCK*
 
 🗯️ Bot tidak atau lambat merespon ?
@@ -651,14 +651,14 @@ exports.welcome = () =>{
 ╰❒ 𝖯𝖺𝗍𝗎𝗁𝗂 𝗋𝗎𝗅𝖾𝗌 𝗀𝗋𝗎𝗉 𝗒𝖺 𝗄𝖺k ~`
 }
 exports.leave = () =>{
-	return`Yah kok out 😣 Mental aman kan kak >.<
+	return`Yah kok keluar mental aman kan kak >.<
 Goodbye`
 }
 exports.source = () =>{
 return`*------「 SOURCE CODE 」 ------*
 
 Base : https://github.com/DikaArdnt/Hisoka-Morou
-Recode : https://github.com/zeeoneofc/Alphabot-Md
+Recode : https://github.com/seycnss/Alphabot-Md
 `
 }
 exports.tos = (ownernomer) => {
@@ -1202,7 +1202,7 @@ return`╭─❒ 「 Others 」
 }
 
 exports.tqto = () =>{
-	return`╭─❒ 「 TqTo 」 
+	return`╭─❒ 「 Thanks To 」 
 ├ My God
 ├ My Parents
 ├ Fatih A.
@@ -1212,6 +1212,7 @@ exports.tqto = () =>{
 ├ Nurutomo
 ├ Rashid
 ├ ZeeoneOfc
+├ Seycanss
 ├ Penyedia Module
 ╰❒ And All Support
 `
